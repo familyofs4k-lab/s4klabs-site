@@ -52,7 +52,6 @@ input:focus,select:focus,textarea:focus{outline:2px solid #58a6ff;outline-offset
 .hp{position:absolute;left:-9999px}
 textarea{padding:12px 14px;min-height:110px;resize:vertical;line-height:1.5}
 textarea::placeholder{color:#6b7686}
-.opt{color:#8a94a3;font-weight:400}
 .thanks p{margin:0}.thanks .t{font-family:'Space Grotesk',Inter,sans-serif;font-size:22px;font-weight:600}
 .err{color:#ffb4a8;font-size:14px;margin:0}
 footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding:32px 0 48px;border-top:1px solid #1c2433;font-size:13px;color:#8a94a3}
@@ -109,7 +108,7 @@ footer a{color:#8a94a3}
 <option>Builder or engineer</option>
 <option>Other</option>
 </select></div>
-<div class="f"><label for="f-msg">What would you like to discuss? <span class="opt">(optional)</span></label><textarea id="f-msg" name="message" rows="4" maxlength="2000" placeholder="A site you're considering, hardware you have, or what caught your eye."></textarea></div>
+<div class="f"><label for="f-msg">What would you like to discuss?</label><textarea id="f-msg" name="message" rows="4" required minlength="20" maxlength="2000" placeholder="A site you're considering, hardware you have, or what caught your eye."></textarea></div>
 <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
 <p class="err" id="err" hidden>Something went wrong. Please email kris@s4klabs.com instead.</p>
 <button class="btn" type="submit">Request a briefing</button>
