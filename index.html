@@ -49,6 +49,13 @@ h1{margin:0;font-family:'Space Grotesk',Inter,sans-serif;font-weight:600;font-si
 .dots b.on{background:#58a6ff;box-shadow:0 0 10px #58a6ff;transform:scale(1.5)}
 .dots b.on.v{background:#bc8cff;box-shadow:0 0 10px #bc8cff}
 .cap{margin:0 0 96px;font-size:13px;color:#8a94a3;letter-spacing:.04em}
+.sec{padding:56px 0;border-top:1px solid #1c2433;display:flex;flex-direction:column;gap:20px}
+.sec h2{max-width:22ch}
+.sec .lead{margin:0;font-size:17px;line-height:1.6;color:#b6bfcc;max-width:60ch}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;padding-top:4px}
+.cols div{border-top:2px solid #243044;padding-top:14px}
+.cols h3{margin:0 0 8px;font-family:'Space Grotesk',Inter,sans-serif;font-weight:600;font-size:18px}
+.cols p{margin:0;font-size:15px;line-height:1.6;color:#b6bfcc}
 #brief{display:flex;flex-wrap:wrap;gap:48px;padding:56px 0;border-top:1px solid #1c2433}
 .intro{flex:1 1 280px;display:flex;flex-direction:column;gap:16px}
 h2{margin:0;font-family:'Space Grotesk',Inter,sans-serif;font-weight:600;font-size:32px;letter-spacing:-.01em}
@@ -98,6 +105,29 @@ footer a{color:#8a94a3}
 
 <div class="dots" id="dots" aria-hidden="true"></div>
 <p class="cap">Each dot is a site. A few are lit.</p>
+
+<section class="sec" id="opportunity">
+<h2>Power is the limit. Plenty of it is already built.</h2>
+<p class="lead">AI demand is held back by power and by places to put machines. Meanwhile, sites that already have electrical capacity, space and cooling are rarely used to their limit. We think the fastest way to add inference capacity is to use what is already plugged in.</p>
+</section>
+
+<section class="sec" id="who">
+<h2>Who we work with</h2>
+<div class="cols">
+<div><h3>Site owners and operators</h3><p>You have power and space. We help turn spare capacity into something that earns, while you keep running your site your way.</p></div>
+<div><h3>Hardware and GPU partners</h3><p>Your hardware, in places where it can run hard and stay busy.</p></div>
+<div><h3>Builders</h3><p>Dependable inference capacity that does not hinge on a single data center.</p></div>
+</div>
+</section>
+
+<section class="sec" id="how">
+<h2>How we work</h2>
+<div class="cols">
+<div><h3>Start with what exists</h3><p>We begin with sites that are already built and powered, not new construction.</p></div>
+<div><h3>Operators stay in control</h3><p>Each site decides what it runs and when. We work with its limits, not around them.</p></div>
+<div><h3>One service on top</h3><p>Customers see a single, reliable service, not hundreds of separate sites.</p></div>
+</div>
+</section>
 
 <section id="brief">
 <div class="intro">
